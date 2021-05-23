@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="main.css">
+<script src="index.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<body onload="createSpreadsheet(20, 10)">
+  <div>
+    <input id="btnBuild" type="button" value="Build" onclick="createSpreadsheet();" />
+    <br /><br />
+    <input type="text" id="txtRows" value="20" />
+    <input type="text" id="txtColumns" value="10" />
+    <br /><br />
+    <input id="btnClear" type="button" value="Clear Data" onclick="clearNum()" />
+    <br /><br />
+    <div>
+      <input type="text" id="numText">
+      <input type="submit" name="" id="numSubmit" onclick="enterNum()">
+    </div>
+    <br /><br />
+    <div id="SpreadsheetTable">
+    </div>
+  </div>
+</body>
+
+</html>

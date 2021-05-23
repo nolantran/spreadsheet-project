@@ -1,0 +1,36 @@
+body {
+  background-color: #bfdccf;
+}
+
+.Buttons {
+  position: absolute;
+  height: 25px;
+  font-family: Arial, Helvetica;
+  font-size: 11pt;
+  color: #002594;
+}
+
+.LblInfoGray {
+  font-family: Verdana, Arial, Helvetica;
+  font-size: 10pt;
+  color: #5a5a5a;
+  position: relative;
+  text-align: left;
+  padding-top: 4px;
+}
+
+.TableClass {
+  font-family: Verdana, Arial, Helvetica;
+  font-size: 9.0pt;
+}
+
+.BaseColumn {
+  text-align: center;
+}
+
+.AlphaColumn {
+  width: 40px;
+  cursor: pointer;
+  background-color: #bfdccf;
+  border: 1px solid #000000;
+}
